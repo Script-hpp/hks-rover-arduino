@@ -1,6 +1,6 @@
 # 🤖 HKS Rover - Arduino Firmware
 
-Arduino firmware for the HKS Rover omnidirectional robot. This code runs on an **Arduino UNO R4 WiFi** and controls three motors plus a kicker mechanism via MQTT commands from the web interface.
+Arduino firmware for the HKS Rover omnidirectional robot. This code runs on an **Arduino UNO R4 WiFi** and controls three motors via MQTT commands from the web interface.
 
 > **🌐 Web Interface**: [HKS Rover Web Control](https://github.com/Script-hpp/hks-rover) - The browser-based control system for this rover.
 
@@ -167,7 +167,7 @@ The `camera.ino` file contains firmware for the **ESP32-CAM** module to stream v
 
 ### Hardware Requirements
 - **ESP32-CAM** module (AI Thinker model)
-- **FTDI Programmer** (for uploading code)
+- **Arduino IDE** (for uploading code)
 - **External 5V power supply** (ESP32-CAM draws too much current for USB)
 
 ### Installation
@@ -186,7 +186,7 @@ The `camera.ino` file contains firmware for the **ESP32-CAM** module to stream v
    - Update `serverURL` in `camera.ino` to point to your Node.js server
 
 4. **Upload**:
-   - Connect ESP32-CAM to FTDI programmer
+   - Connect ESP32-CAM to Arduino IDE
    - Set **GPIO 0 to GND** (programming mode)
    - Upload the code
    - Remove GPIO 0 connection and reset
