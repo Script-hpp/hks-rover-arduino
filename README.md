@@ -73,6 +73,8 @@ Arduino UNO R4 WiFi
 | 7 | Motor 3 Left | Left/right motor direction |
 | 8 | Motor 3 Right | Left/right motor direction |
 | 9 | Motor 3 Speed (PWM) | Left/right motor speed control |
+| 10 | Kicker Speed (PWM) | Kicker speed control |
+| 12 | Kicker Forward | Kicker forward direction |
 | LED_BUILTIN | Status LED | Connection status indicator |
 
 ## 🚀 Installation
